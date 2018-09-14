@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <OutputType>Exe</OutputType>
+    <ToolCommandName>vsts-pr</ToolCommandName>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>vsts-pr-tool</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>VSTS Pull Request Creator Tool</Title>
+    <Description>A command line tool for fast creation of pull requests in Visual Studio Team Services.</Description>
+    <Summary>A command line tool for fast creation of pull requests in Visual Studio Team Services.</Summary>
+    <PackageTags>vsts;pullrequest;tools;dotnetcore</PackageTags>
+    <PackageProjectUrl>https://github.com/asafst/vsts-pr-tool</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/asafst/vsts-pr-tool/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/asafst/vsts-pr-tool.git</RepositoryUrl>
+    <PackageReleaseNotes>First working version</PackageReleaseNotes>
+    <Authors>asafst</Authors>
+    <Copyright>MIT</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.3.65" />
+    <PackageReference Include="LibGit2Sharp" Version="0.25.2" />
+    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
