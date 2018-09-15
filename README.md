@@ -36,7 +36,5 @@ vsts-pr
 
 MIT
 
-[npm-image]: https://badge.fury.io/js/vsts-pull-request-creator.svg
-[npm-url]: https://www.npmjs.com/package/vsts-pull-request-creator
-[travis-image]: https://travis-ci.org/asafst/vsts-pull-request-creator.svg?branch=master
-[travis-url]: https://travis-ci.org/asafst/vsts-pull-request-creator
+[travis-image]: https://travis-ci.org/asafst/vsts-pr-tool.svg?branch=master
+[travis-url]: https://travis-ci.org/asafst/vsts-pr-tool
