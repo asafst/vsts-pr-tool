@@ -1,2 +1,8 @@
 language: csharp
 solution: VstsPrTool.sln
+mono: none
+dotnet: 2.1.0
+
+script:
+ - dotnet restore
+ - dotnet build
